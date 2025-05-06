@@ -1,0 +1,25 @@
+{
+  "name": "excel-to-postgres-importer",
+  "version": "1.0.0",
+  "description": "Import Excel data to PostgreSQL database for reporting dashboard metrics",
+  "main": "excel_to_postgres.ts",
+  "scripts": {
+    "start": "ts-node excel_to_postgres.ts",
+    "build": "tsc",
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "pg": "^8.15.6",
+    "uuid": "^11.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.12",
+    "@types/pg": "^8.12.0",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
