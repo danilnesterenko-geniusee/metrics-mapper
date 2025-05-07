@@ -5,7 +5,7 @@
   "main": "excel_to_postgres.ts",
   "scripts": {
     "start": "ts-node excel_to_postgres.ts",
-    "build": "tsc",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
